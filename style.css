@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik;
+}
+@font-face {
+    font-family: rubik;
+    src: url('/rubik-regular-webfont.woff2');
+}
+button{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(3, 23, 43);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color:black;
+    --text-color:white;
+    --button-text-color:white;
+    --button-bg-color:orangered;
+    --link-color:purple;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    
+}
+.tester{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:4rem 4rem;
+    border-radius: 0.4rem;
+    max-width: 30rem;
+    overflow: hidden;
+    background-color: #bbd2dc;
+    
+}
+h1{
+    color:var(--button-text-color);
+    padding-bottom: 10px;
+    
+}
+h2{
+    color: var(--button-text-color);
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+button{
+    padding: 1rem 2rem ;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 200px;
+}
+#decrease-btn{
+    background-color: var(--button-bg-color);
+    
+}
+#save-data{
+    background-color:black;
+    color:whitesmoke;
+    /* border:1px solid whitesmoke; */
+}
+#prev-entries{
+    padding-top: 1rem;
+    color:var(--button-text-color);
+    font-size: 1.5rem;
+}
+#count-entry{
+    font-size: 4rem;
+    font-weight: bold;
+    color:black;
+}
